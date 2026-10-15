@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-notebook-editor" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_notebook_editor-{{ version }}.tar.gz
-  sha256: e1a3104103003a9a5634d7b69776a2630e3bfa9e78b801d4fba7d9f623216a28
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_notebook_editor-{{ version }}.tar.gz
+  sha256: b779048b284ae8ab24becf9628454a2fc00d68e0536a2d114940ff416fa8e2fc
 
 build:
   noarch: python
